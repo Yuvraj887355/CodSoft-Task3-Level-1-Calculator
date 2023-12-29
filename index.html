@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></i>
+ <link rel="stylesheet" href="Style1.css"> 
+</head>
+<body>
+
+  <div class="main">
+
+    <form name="f" class="g">
+      <input type="text" name="ddd" placeholder="0" class="eee"> 
+      <input type="button" value="1" onclick="f.ddd.value+=1">
+      <input type="button" value="2" onclick="f.ddd.value+=2">
+      <input type="button" value="3" onclick="f.ddd.value+=3">
+      <input type="button" value="+" onclick="add()">
+      
+      <input type="button" value="4" onclick="f.ddd.value+=4">
+      <input type="button" value="5" onclick="f.ddd.value+=5">
+      <input type="button" value="6" onclick="f.ddd.value+=6">
+      <input type="button" value="-" onclick="sub()">
+      
+      <input type="button" value="7" onclick="f.ddd.value+=7">
+      <input type="button" value="8" onclick="f.ddd.value+=8">
+      <input type="button" value="9" onclick="f.ddd.value+=9">
+      <input type="button" value="/" onclick="div()">
+      
+      <input type="button" value="C" onclick="f.ddd.value=''">
+      <input type="button" value="0" onclick="f.ddd.value+=0">
+      <input type="button" value="=" onclick="f.ddd.value=eval(f.ddd.value)">
+      <input type="button" value="x" onclick="mul()">
+      
+
+    </form>
+
+  </div>
+
+  <div class="title">
+    <h1><u>Calculator</u></h1>
+    <h2><i>Created by:-Yuvraj Patel</i></h2>
+  </div>
+ 
+
+</body>
+<script src="index.js"></script> 
+</html>

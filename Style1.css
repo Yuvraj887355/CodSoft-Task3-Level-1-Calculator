@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.main{
+    height: 40vw;
+    width: 34vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border: 0.75vw solid black;
+    background: linear-gradient(rgb(232, 53, 53),rgb(70, 70, 248),rgb(101, 236, 101))
+    
+}
+input{
+    align-self: center;
+    width: 6vw;
+    height: 5vw;
+    margin: 1vw;
+    font-size:2vw;
+    font-weight: 600;
+}
+ .eee{
+    width: 32vw;
+    height:5vw;
+    background-color: silver;
+ }
+
+ .title{
+    height: 5vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+ }
+ h2{
+    position: absolute;
+    margin-top: 7vw;
+    text-decoration: 0.50vw underline blue;
+ }
+
+
+input:hover{
+    background-color: black;
+    color: white;
+    border: 1.5px solid white;
+}
+
+@media(min-width: 220px)and (max-width:500px) {
+    
+ html body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top:1vw;
+  }
+
+.main{
+    height: 65vw;
+    width: 65vw;
+    display:inline;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border: 0.75vw solid black;
+    background: linear-gradient(rgb(232, 53, 53),rgb(70, 70, 248),rgb(101, 236, 101))
+    
+}
+
+input{
+    align-self: center;
+    width: 13vw;
+    height: 10vw;
+    margin: 1vw;
+    font-size:5vw;
+    font-weight: 600;
+}
+ .eee{
+    width: 60vw;
+    height:10vw;
+    background-color: silver;
+ }
+
+ .title{
+    height: 5vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+ }
+ h1{
+    margin-top: 10vw;
+ }
+ h2{
+    position: absolute;
+    text-decoration: 0.50vw underline blue;
+    margin-top: 30vw;
+ }
+
+
+input:hover{
+    background-color: black;
+    color: white;
+    border: 1.5px solid white;
+}
+
+
+} 
